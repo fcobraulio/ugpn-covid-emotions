@@ -88,7 +88,7 @@ def main():
     until = '2021-04-30'
     keywords = pd.read_csv('./data/external/keywords.csv', header=None, names=['keywords']) 
     keywords = list(keywords.keywords.unique())
-    news_accounts = pd.read_csv('./data/external/news_accounts_4.csv', sep=';')
+    news_accounts = pd.read_csv('./data/external/news_accounts_skynews.csv', sep=';')
 
     # Loop through news pages and get content
     logger.info('Start collecting tweets.')
@@ -106,8 +106,8 @@ def main():
         page_metadata = pa.Table.from_pandas(page_metadata, schema=users_schema, preserve_index=False)
         if i == 0:
             # create a parquet write object giving it an output file
-            tpqwriter = pq.ParquetWriter('./data/raw/tmp/news_tweets4.parquet', tweets_schema, compression='gzip')
-            upqwriter = pq.ParquetWriter('./data/raw/tmp/news_accounts4.parquet', users_schema, compression='gzip')
+            tpqwriter = pq.ParquetWriter('./data/raw/tmp/news_tweets_skynews.parquet', tweets_schema, compression='gzip')
+            upqwriter = pq.ParquetWriter('./data/raw/tmp/news_accounts_skynews.parquet', users_schema, compression='gzip')
         tpqwriter.write_table(page_tweets)
         upqwriter.write_table(page_metadata)
         print("Just finished", page)

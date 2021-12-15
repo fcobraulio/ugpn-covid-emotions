@@ -154,12 +154,12 @@ def main():
     # search_groups = [c for c in search_groups if c[0] in remain_codes]
 
     # Read 
-    df = pd.read_parquet('./data/raw/tmp/news_tweets5.parquet')
+    df = pd.read_parquet('./data/raw/tmp/news_tweets_skynews.parquet')
     df = df[df.replyCount>0]
     conversations = list(df.conversationId.unique())
     random.shuffle(conversations)
     search_groups = list(split(conversations, int(len(conversations)/12)))
-    pickle.dump(search_groups, open('./data/external/search_groups5.sav', 'wb'))
+    pickle.dump(search_groups, open('./data/external/search_groups6.sav', 'wb'))
     logger.warning('Starting conversations scrapping with %d conversations to be scrapped.', len(search_groups)*12)
 
     while len(search_groups) > 0:

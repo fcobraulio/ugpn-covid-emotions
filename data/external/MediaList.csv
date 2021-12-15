@@ -1,0 +1,283 @@
+username;country;media_outlet;media_category
+9NewsAdel;AU;Channel 9;Television
+9NewsAUS;AU;Channel 9;Television
+9NewsMelb;AU;Channel 9;Television
+9NewsPerth;AU;Channel 9;Television
+9NewsQueensland;AU;Channel 9;Television
+9NewsSyd;AU;Channel 9;Television
+ABCaustralia;AU;ABC (Australian Broadcasting Corporation);Television
+abcbrisbane;AU;ABC (Australian Broadcasting Corporation);Television
+abcnews;AU;ABC (Australian Broadcasting Corporation);Television
+abcperth;AU;ABC (Australian Broadcasting Corporation);Television
+abcsydney;AU;ABC (Australian Broadcasting Corporation);Television
+ABCthedrum;AU;ABC (Australian Broadcasting Corporation);Television
+australian;AU;The Australian;Newspaper
+canberratimes;AU;The Canberra Times;Newspaper
+dailytelegraph;AU;The Daily Telegraph;Newspaper
+InsidersABC;AU;ABC (Australian Broadcasting Corporation);Television
+newscomauHQ;AU;News;Website
+SBSNews;AU;SBS;Television
+smh;AU;The Sydney Morning Herald;Newspaper
+theage;AU;The Age;Newspaper
+theheraldsun;AU;The Herald Sun;Newspaper
+calgaryherald;CA;Calgary Herald;Newspaper
+CBCAlerts;CA;CBC;Television
+CBCCalgary;CA;CBC;Television
+CBCCanada;CA;CBC;Television
+CBCEdmonton;CA;CBC;Television
+CBCNews;CA;CBC;Television
+cbcnewsbc;CA;CBC;Television
+CBCOttawa;CA;CBC;Television
+CBCTheNational;CA;CBC;Television
+CBCToronto;CA;CBC;Television
+CTVBarrieNews;CA;CTV;Television
+CTVCalgary;CA;CTV;Television
+ctvedmonton;CA;CTV;Television
+CTVKitchener;CA;CTV;Television
+CTVMontreal;CA;CTV;Television
+CTVNews;CA;CTV;Television
+ctvottawa;CA;CTV;Television
+CTVToronto;CA;CTV;Television
+GlobalBC;CA;Global Television Network;Television
+GlobalCalgary;CA;Global Television Network;Television
+GlobalEdmonton;CA;Global Television Network;Television
+globalnews;CA;Global Television Network;Television
+globalnewsto;CA;Global Television Network;Television
+globeandmail;CA;The Globe and Mail;Newspaper
+HuffPostCanada;CA;HuffPost;Website
+mtlgazette;CA;Montreal Gazette;Newspaper
+nationalpost;CA;National Post;Newspaper
+PnPCBC;CA;CBC;Television
+TheTorontoSun;CA;Toronto Sun;Newspaper
+TorontoStar;CA;Toronto Star;Newspaper
+TPostMillennial;CA;The Post Millennial;Website
+VancouverSun;CA;Vancouver Sun;Newspaper
+98FM;IE;98FM;Radio
+breakingnewsie;IE;BreakingNews;Website
+corkindo;IE;Cork Independent;Newspaper
+CorksRedFM;IE;Cork's RedFM;Radio
+Herdotie;IE;Her;Website
+Independent_ie;IE;Independent;Website
+irishexaminer;IE;Irish Examiner;Newspaper
+IrishMirror;IE;Irish Daily Mirror;Newspaper
+IrishSunOnline;IE;The Sun;Newspaper
+IrishTimes;IE;The Irish Times;Newspaper
+IsFearrAnStar;IE;Daily Mirror;Newspaper
+JOEdotie;IE;JOE;Website
+lstwrd;IE;Today FM;Radio
+morningireland;IE;RTE;Radio
+NewstalkFM;IE;NewstalkFM;Radio
+rte;IE;RTE;Radio
+RTE2fm;IE;RTE;Radio
+RTEbusiness;IE;RTE;Radio
+rtenews;IE;RTE;Radio
+RTENewsNow;IE;RTE;Radio
+RTERadio1;IE;RTE;Radio
+rtetwip;IE;RTE;Radio
+SunTimesIreland;IE;The Times Ireland;Newspaper
+thejournal_ie;IE;The Journal;Website
+thetimesIE;IE;The Times Ireland;Newspaper
+TodayFM;IE;Today FM;Radio
+VirginMediaNews;IE;Virgin Media News;Television
+airnewsalerts;IN;All India Radio News;Radio
+ANI;IN;Asian News International;Website
+bsindia;IN;Business Standard;Newspaper
+businessline;IN;The Hindu;Newspaper
+CNBCTV18News;IN;Network 18;Television
+CNNnews18;IN;Network 18;Television
+DDNewslive;IN;DD News;Television
+DeccanChronicle;IN;Deccan Chronicle;Newspaper
+dna;IN;Zee Media;Newspaper
+EconomicTimes;IN;The Economic Times;Newspaper
+FinancialXpress;IN;The Indian Express;Newspaper
+firstpost;IN;Network 18;Television
+fpjindia;IN;Free Press Journal;Newspaper
+HindustanTimes;IN;Hindustan Times;Newspaper
+HTPunjab;IN;Hindustan Times;Newspaper
+htTweets;IN;Hindustan Times;Newspaper
+ie_seven;IN;The Indian Express;Newspaper
+IndianExpress;IN;The Indian Express;Newspaper
+IndiaToday;IN;India Today;Magazine
+indiatvnews;IN;India TV;Television
+mid_day;IN;Mid Day;Newspaper
+ndtv;IN;NDTV;Television
+ndtvfeed;IN;NDTV;Television
+NewIndianXpress;IN;The Indian Express;Newspaper
+news18dotcom;IN;Network 18;Television
+News18Politics;IN;Network 18;Television
+Oneindia;IN;Oneindia;Website
+Outlookindia;IN;Outlook Magazine;Magazine
+TelanganaToday;IN;Telangana Today;Newspaper
+THAndhra;IN;The Hindu;Newspaper
+THBengaluru;IN;The Hindu;Newspaper
+the_hindu;IN;The Hindu;Newspaper
+TheHinduComment;IN;The Hindu;Newspaper
+TheHinduMag;IN;The Hindu;Newspaper
+TheQuint;IN;The Hindu;Newspaper
+thewire_in;IN;The Hindu;Newspaper
+THexplains;IN;The Hindu;Newspaper
+THHyderabad;IN;The Hindu;Newspaper
+THKerala;IN;The Hindu;Newspaper
+THKolkata;IN;The Hindu;Newspaper
+THMetroPlus;IN;The Hindu;Newspaper
+THMumbai;IN;The Hindu;Newspaper
+THNewDelhi;IN;The Hindu;Newspaper
+THPondy;IN;The Hindu;Newspaper
+TimesNow;IN;TIMES NOW;Television
+timesofindia;IN;The Times Of India;Newspaper
+TOIIndiaNews;IN;The Times Of India;Newspaper
+WIONews;IN;Zee Media;Newspaper
+ZeeNewsEnglish;IN;Zee Media;Newspaper
+CapitalFMKenya;KE;Capital FM;Radio
+citizentvkenya;KE;Citizen TV;Television
+K24Tv;KE;K24 TV;Television
+NationBreaking;KE;NTV;Television
+ntvkenya;KE;NTV;Television
+NTVnewsroom;KE;NTV;Television
+PeopleDailyKe;KE;People Daily;Newspaper
+RadioCitizenFM;KE;Radio Citizen;Radio
+StandardKenya;KE;The Standard Digital;Newspaper
+TheStarBreaking;KE;The Star Kenya;Newspaper
+TheStarKenya;KE;The Star Kenya;Newspaper
+DNewsAsia;MY;Digital News Asia;Website
+fmtoday;MY;Free Malaysia Today;Website
+malaymail;MY;Malay Mail;Newspaper
+malaysiakini;MY;Malaysiakini;Website
+msianinsight;MY;The Malaysian Insight;Website
+NewsBFM;MY;BFM 89.9;Radio
+NST_Online;MY;New Straits Times;Newspaper
+sarawak_report;MY;Sarawak Report;Website
+staronline;MY;The Star;Newspaper
+theborneopost;MY;Borneo Post;Newspaper
+theedgemalaysia;MY;The Edge Malaysia;Newspaper
+therakyatpost;MY;The Rakyat Post;Newspaper
+theSundaily;MY;The Sun Daily;Newspaper
+9newsng;NG;9News Nigeria;Website
+AIT_Online;NG;AIT;Television
+bellanaija;NG;BellaNaija;Website
+channelstv;NG;Channels Television;Television
+daily_trust;NG;Daily Trust;Newspaper
+DailyPostNGR;NG;Daily Post;Newspaper
+GuardianNigeria;NG;The Guardian Nigeria;Newspaper
+LeadershipNGA;NG;LEADERSHIP NEWS;Website
+legitngnews;NG;Legit News;Website
+MobilePunch;NG;Punch Newspapers;Newspaper
+NigeriaNewsdesk;NG;Today;Website
+nigeriantribune;NG;Nigerian Tribune;Newspaper
+NTANewsNow;NG;NTA;Television
+pmnewsnigeria;NG;P.M. News;Newspaper
+PremiumTimesng;NG;Premium Times;Newspaper
+PulseNigeria247;NG;Pulse Nigeria;Website
+smebizplatform;NG;SME Digest!;Website
+sunrisedailynow;NG;Channels Television;Television
+thecableng;NG;TheCable;Website
+TheNationNews;NG;The Nation Nigeria;Newspaper
+TheReflectorNG;NG;Reflector Newspaper;Newspaper
+THISDAYLIVE;NG;THISDAY LIVE;Newspaper
+vanguardngrnews;NG;Vanguard Newspapers;Newspaper
+NewshubNZ;NZ;Newshub;Television
+NewshubPolitics;NZ;Newshub;Television
+NewsroomNZ;NZ;Newsroom;Website
+NewstalkZB;NZ;Newstalk ZB;Radio
+ninetonoon;NZ;RNZ National;Radio
+nzherald;NZ;The New Zealand Herald;Newspaper
+NZMorningReport;NZ;RNZ National;Radio
+NZStuff;NZ;Stuff.co.nz;Website
+radionz;NZ;RNZ National;Radio
+rnz_news;NZ;RNZ National;Radio
+ScoopNZ;NZ;Scoop;Website
+TheCivilianNZ;NZ;The Civilian;Website
+TheSpinoffTV;NZ;The Spinoff;Website
+ABSCBNNews;PH;ABS-CBN;Television
+ANCALERTS;PH;ABS-CBN;Television
+BusinessMirror;PH;BusinessMirror;Newspaper
+bworldph;PH;The Philippine Star;Newspaper
+cebudailynews;PH;Inquirer;Newspaper
+cnnphilippines;PH;CNN;Television
+gma_lifetv;PH;GMA Network;Television
+gmanews;PH;GMA Network;Television
+gmanewsbreaking;PH;GMA Network;Television
+gmanewstv;PH;GMA Network;Television
+GMARegionalTV;PH;GMA Network;Television
+Inq_Opinion;PH;Inquirer;Newspaper
+InqNational;PH;Inquirer;Newspaper
+inquirerdotnet;PH;Inquirer;Newspaper
+interaksyon;PH;The Philippine Star;Newspaper
+manilabulletin;PH;Manila Bulletin News;Newspaper
+mysummitexpress;PH;The Summit Express;Website
+PhilstarNews;PH;The Philippine Star;Newspaper
+pnagovph;PH;Philippine News Agency;Website
+rapplerdotcom;PH;Rappler;Website
+stateofdnation;PH;GMA Network;Television
+sunstaronline;PH;SunStar Philippines;Newspaper
+TheManilaTimes;PH;The Manila Times;Newspaper
+bbc5live;UK;BBC;Television
+BBCBreakfast;UK;BBC;Television
+BBCBreaking;UK;BBC;Television
+BBCNews;UK;BBC;Television
+BBCNewsNI;UK;BBC;Television
+BBCNewsnight;UK;BBC;Television
+BBCr4today;UK;BBC;Television
+BBCRadio4;UK;BBC;Television
+BBCScotlandNews;UK;BBC;Television
+BBCWorld;UK;BBC;Television
+Channel4News;UK;Channel 4;Television
+Daily_Express;UK;Daily Mirror;Newspaper
+DailyMirror;UK;Daily Mirror;Newspaper
+guardian;UK;The Guardian;Newspaper
+Independent;UK;The Independent;Newspaper
+MailOnline;UK;Daily Mail;Newspaper
+MetroUK;UK;Daily Mail;Newspaper
+Telegraph;UK;The Daily Telegraph;Newspaper
+TheSun;UK;The Sun;Newspaper
+ABC;US;ABC (American Broadcasting Company);Television
+abc13houston;US;ABC (American Broadcasting Company);Television
+abc15;US;ABC (American Broadcasting Company);Television
+ABC30;US;ABC (American Broadcasting Company);Television
+ABC7;US;ABC (American Broadcasting Company);Television
+abc7newsbayarea;US;ABC (American Broadcasting Company);Television
+ABC7NY;US;ABC (American Broadcasting Company);Television
+BreitbartNews;US;Breitbart News;Website
+business;US;Bloomberg;Website
+CBSNews;US;CBS;Television
+CNET;US;CNET;Website
+CNN;US;CNN;Television
+cnnbrk;US;CNN;Television
+CNNPolitics;US;CNN;Television
+FOX4;US;Fox;Television
+FOXLA;US;Fox;Television
+FoxNews;US;Fox;Television
+HBO;US;HBO;Television
+HuffPost;US;HuffPost;Website
+ladailynews;US;Los Angeles Daily News;Newspaper
+latimes;US;Los Angeles Times;Newspaper
+MSNBC;US;MSNBC;Television
+NBC12;US;NBC;Television
+NBCDFW;US;NBC;Television
+NBCLA;US;NBC;Television
+NBCNews;US;NBC;Television
+NBCNightlyNews;US;NBC;Television
+NBCPhiladelphia;US;NBC;Television
+Newsweek;US;Newsweek;Magazine
+NPR;US;NPR;Radio
+nytimes;US;The New York Times;Newspaper
+THR;US;The Hollywood Reporter;Website
+TIME;US;TIME;Magazine
+TMZ;US;TMZ;Website
+USATODAY;US;USA Today;Newspaper
+usnews;US;US News;Website
+VICENews;US;VICE;Website
+washingtonpost;US;The Washington Post;Newspaper
+WSJ;US;The Wall Street Journal;Newspaper
+BusinessTechSA;ZA;Business Tech;Website
+dailymaverick;ZA;Daily Maverick;Newspaper
+eNCA;ZA;eNCA;Television
+mailandguardian;ZA;Mail & Guardian;Website
+News24;ZA;News24;Website
+SABCNews;ZA;SABC;Television
+SowetanLIVE;ZA;The Sowetan;Newspaper
+TeamNews24;ZA;News24;Website
+TheCitizen_News;ZA;The Citizen News;Newspaper
+TheSAnews;ZA;The South African;Website
+TimesLIVE;ZA;TimesLIVE;Website
+SkyNews;UK;SkyNews;Television

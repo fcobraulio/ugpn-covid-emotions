@@ -1,0 +1,30 @@
+subtheme,subtheme_desc
+11,Cases and deaths increasing
+12,Cases and deaths decreasing
+21,Economic impact over national economies and big companies
+22,Economic plans to support jobs and food programs
+41,Nursing homes and elderly victims
+42,Mental health impact
+43,Jail system and cops
+44,Family stories
+51,Health authorities
+52,Political authorities
+53,Elections
+61,Mobility restrictions
+62,Travelling protocols
+63,People against restrictions or breaking rules
+64,Non-pharmacological measures
+65,Festivities and holidays
+66,Easing restrictions
+71,Outbreak and pandemic origins
+72,Research and treatment
+73,New waves and variants
+74,Heatlh workers
+10,Cases and deaths (default)
+20,Economic impact (default)
+30,Educational impact (default)
+40,People stories (default)
+50,Authorities & Politics (default)
+60,Preventive measures (default)
+70,Virus spreading (default)
+80,Vaccines and vaccination (default)

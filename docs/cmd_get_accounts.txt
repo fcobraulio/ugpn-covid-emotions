@@ -1,0 +1,960 @@
+Microsoft Windows [Version 10.0.19041.804]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/Scripts/activate
+
+(base) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>conda activate ugpn-covid-emotions
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 30
+    'new_zeland': '-41.500083,172.834408,830km',
+                ^
+SyntaxError: invalid syntax
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 49
+    print(place ':initial referential timestamp:', df.date.min())
+                ^
+SyntaxError: invalid syntax
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 68
+    selected_users.to_csv(project_dir+'data/interim/'loc+'_media.csv')
+                                                     ^
+SyntaxError: invalid syntax
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Traceback (most recent call last):
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 40, in <module>
+    project_dir = Path(__file__).resolve().parents[2]
+NameError: name 'Path' is not defined
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Start processing east_us
+east_us :initial referential timestamp: 2021-02-28 23:01:47+00:00
+east_us :number of selected users: 0
+Traceback (most recent call last):
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 69, in <module>
+    selected_users.to_csv(project_dir+'data/interim/'+loc+'_media.csv')
+TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Start processing east_us
+east_us :initial referential timestamp: 2021-02-28 23:01:47+00:00
+east_us :number of selected users: 0
+Traceback (most recent call last):
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 69, in <module>
+    selected_users.to_csv(str(project_dir)+'data/interim/'+loc+'_media.csv')
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\core\generic.py", line 3387, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\io\formats\format.py", line 1083, in to_csv
+    csv_formatter.save()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\io\formats\csvs.py", line 228, in save
+    with get_handle(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\io\common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\f.braulio\\Documents\\Git\\ugpn-covid-emotionsdata/interim/35.672964,-79.039292,1200km_media.csv'
+
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Start processing east_us
+east_us :initial referential timestamp: 2021-02-28 15:38:39+00:00
+east_us :number of selected users: 0
+Start processing central_us
+central_us :initial referential timestamp: 2021-02-28 02:08:04+00:00
+central_us :number of selected users: 0
+Start processing west_us
+Traceback (most recent call last):
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 47, in <module>
+    df = pd.DataFrame(itertools.islice(sntwitter.TwitterSearchScraper(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\core\frame.py", line 563, in __init__
+    data = list(data)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 478, in get_items
+    for obj in self._iter_api_data('https://api.twitter.com/2/search/adaptive.json', params, paginationParams):
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 245, in _iter_api_data
+    obj = self._get_api_data(endpoint, reqParams)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 226, in _get_api_data
+    r = self._get(endpoint, params = params, headers = self._apiHeaders, responseOkCallback = self._check_api_response)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\base.py", line 196, in _get
+    return self._request('GET', *args, **kwargs)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\base.py", line 158, in _request
+    r = self._session.send(req, allow_redirects = allowRedirects, timeout = timeout)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+^C
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Start processing east_us
+east_us :initial referential timestamp: 2021-02-28 15:38:39+00:00
+east_us :number of selected users: 79
+Got info from user: 0
+Got info from user: 1
+Got info from user: 2
+Got info from user: 3
+Got info from user: 4
+Got info from user: 5
+Got info from user: 6
+Got info from user: 7
+Got info from user: 8
+Got info from user: 9
+Got info from user: 10
+Got info from user: 11
+Got info from user: 12
+Got info from user: 13
+Got info from user: 14
+Got info from user: 15
+Got info from user: 16
+Got info from user: 17
+Got info from user: 18
+Got info from user: 19
+Got info from user: 20
+Got info from user: 21
+Got info from user: 22
+Got info from user: 23
+Got info from user: 24
+Got info from user: 25
+Got info from user: 26
+Got info from user: 27
+Got info from user: 28
+Got info from user: 29
+Got info from user: 30
+Got info from user: 31
+Got info from user: 32
+Got info from user: 33
+Got info from user: 34
+Got info from user: 35
+Got info from user: 36
+Got info from user: 37
+Got info from user: 38
+Got info from user: 39
+Got info from user: 40
+Got info from user: 41
+Got info from user: 42
+Got info from user: 43
+Got info from user: 44
+Got info from user: 45
+Got info from user: 46
+Got info from user: 47
+Got info from user: 48
+Got info from user: 49
+Got info from user: 50
+Got info from user: 51
+Got info from user: 52
+Got info from user: 53
+Got info from user: 54
+Got info from user: 55
+Got info from user: 56
+Got info from user: 57
+Got info from user: 58
+Got info from user: 59
+Got info from user: 60
+Got info from user: 61
+Got info from user: 62
+Got info from user: 63
+Got info from user: 64
+Got info from user: 65
+Got info from user: 66
+Got info from user: 67
+Got info from user: 68
+Got info from user: 69
+Got info from user: 70
+Got info from user: 71
+Got info from user: 72
+Got info from user: 73
+Got info from user: 74
+Got info from user: 75
+Got info from user: 76
+Got info from user: 77
+Got info from user: 78
+Start processing central_us
+central_us :initial referential timestamp: 2021-02-28 02:08:04+00:00
+central_us :number of selected users: 58
+Got info from user: 0
+Got info from user: 1
+Got info from user: 2
+Got info from user: 3
+Got info from user: 4
+Got info from user: 5
+Got info from user: 6
+Got info from user: 7
+Got info from user: 8
+Got info from user: 9
+Got info from user: 10
+Got info from user: 11
+Got info from user: 12
+Got info from user: 13
+Got info from user: 14
+Got info from user: 15
+Got info from user: 16
+Got info from user: 17
+Got info from user: 18
+Got info from user: 19
+Got info from user: 20
+Got info from user: 21
+Got info from user: 22
+Got info from user: 23
+Got info from user: 24
+Got info from user: 25
+Got info from user: 26
+Got info from user: 27
+Got info from user: 28
+Got info from user: 29
+Got info from user: 30
+Got info from user: 31
+Got info from user: 32
+Got info from user: 33
+Got info from user: 34
+Got info from user: 35
+Got info from user: 36
+Got info from user: 37
+Got info from user: 38
+Got info from user: 39
+Got info from user: 40
+Got info from user: 41
+Got info from user: 42
+Got info from user: 43
+Got info from user: 44
+Got info from user: 45
+Got an error from user: 46
+Got info from user: 47
+Got info from user: 48
+Got info from user: 49
+Got info from user: 50
+Got info from user: 51
+Got info from user: 52
+Got info from user: 53
+Got info from user: 54
+Got info from user: 55
+Got info from user: 56
+Got info from user: 57
+Start processing west_us
+west_us :initial referential timestamp: 2021-02-27 19:05:22+00:00
+west_us :number of selected users: 67
+Got info from user: 0
+Got info from user: 1
+Got info from user: 2
+Got info from user: 3
+Got info from user: 4
+Got info from user: 5
+Got info from user: 6
+Got info from user: 7
+Got info from user: 8
+Got info from user: 9
+Got info from user: 10
+Got info from user: 11
+Got info from user: 12
+Got info from user: 13
+Got info from user: 14
+Got info from user: 15
+Got info from user: 16
+Got info from user: 17
+Got info from user: 18
+Got info from user: 19
+Got info from user: 20
+Got info from user: 21
+Got info from user: 22
+Got info from user: 23
+Got info from user: 24
+Got info from user: 25
+Got info from user: 26
+Got info from user: 27
+Got info from user: 28
+Got info from user: 29
+Got info from user: 30
+Got info from user: 31
+Got info from user: 32
+Got info from user: 33
+Got an error from user: 34
+Got info from user: 35
+Got info from user: 36
+Got info from user: 37
+Got info from user: 38
+Got info from user: 39
+Got info from user: 40
+Got info from user: 41
+Got info from user: 42
+Got info from user: 43
+Got info from user: 44
+Got info from user: 45
+Got info from user: 46
+Got info from user: 47
+Got info from user: 48
+Got info from user: 49
+Got info from user: 50
+Got info from user: 51
+Got info from user: 52
+Got info from user: 53
+Got info from user: 54
+Got info from user: 55
+Got info from user: 56
+Got info from user: 57
+Got info from user: 58
+Got info from user: 59
+Got info from user: 60
+Got info from user: 61
+Got info from user: 62
+Got info from user: 63
+Got info from user: 64
+Got info from user: 65
+Got info from user: 66
+Start processing ireland_uk
+ireland_uk :initial referential timestamp: 2021-02-28 07:22:12+00:00
+ireland_uk :number of selected users: 114
+Got info from user: 0
+Got info from user: 1
+Got info from user: 2
+Got an error from user: 3
+Got an error from user: 4
+Got an error from user: 5
+Got an error from user: 6
+Got info from user: 7
+Got an error from user: 8
+Got an error from user: 9
+Got an error from user: 10
+Got an error from user: 11
+Got an error from user: 12
+Got an error from user: 13
+Got an error from user: 14
+Got an error from user: 15
+Got an error from user: 16
+Got an error from user: 17
+Got an error from user: 18
+Got an error from user: 19
+Got an error from user: 20
+Got an error from user: 21
+Got an error from user: 22
+Got an error from user: 23
+Got an error from user: 24
+Got an error from user: 25
+Got an error from user: 26
+Got an error from user: 27
+Got an error from user: 28
+Got an error from user: 29
+Got an error from user: 30
+Got an error from user: 31
+Got an error from user: 32
+Got an error from user: 33
+Got an error from user: 34
+Got an error from user: 35
+Got an error from user: 36
+Got an error from user: 37
+Got an error from user: 38
+Got an error from user: 39
+Got an error from user: 40
+Got an error from user: 41
+Got an error from user: 42
+Got an error from user: 43
+Got an error from user: 44
+Got an error from user: 45
+Got an error from user: 46
+Got an error from user: 47
+Got an error from user: 48
+Got an error from user: 49
+Got an error from user: 50
+Got an error from user: 51
+Got an error from user: 52
+Got an error from user: 53
+Got an error from user: 54
+Got an error from user: 55
+Got an error from user: 56
+Got an error from user: 57
+Got an error from user: 58
+Got an error from user: 59
+Got an error from user: 60
+Got an error from user: 61
+Got an error from user: 62
+Got an error from user: 63
+Got an error from user: 64
+Got an error from user: 65
+Got an error from user: 66
+Got an error from user: 67
+Got an error from user: 68
+Got an error from user: 69
+Got an error from user: 70
+Got an error from user: 71
+Got an error from user: 72
+Got an error from user: 73
+Got an error from user: 74
+Got an error from user: 75
+Got an error from user: 76
+Got an error from user: 77
+Got an error from user: 78
+Got an error from user: 79
+Got an error from user: 80
+Got an error from user: 81
+Got an error from user: 82
+Got an error from user: 83
+Got an error from user: 84
+Got an error from user: 85
+Got an error from user: 86
+Got an error from user: 87
+Got an error from user: 88
+Got an error from user: 89
+Got an error from user: 90
+Got an error from user: 91
+Got an error from user: 92
+Got an error from user: 93
+Got an error from user: 94
+Got an error from user: 95
+Got an error from user: 96
+Got an error from user: 97
+Got an error from user: 98
+Got an error from user: 99
+Got an error from user: 100
+Got an error from user: 101
+Got an error from user: 102
+Got an error from user: 103
+Got an error from user: 104
+Got an error from user: 105
+Got an error from user: 106
+Got an error from user: 107
+Got an error from user: 108
+Got an error from user: 109
+Got an error from user: 110
+Got an error from user: 111
+Got an error from user: 112
+Got an error from user: 113
+Start processing east_canada
+Traceback (most recent call last):
+  File "c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py", line 47, in <module>
+    df = pd.DataFrame(itertools.islice(sntwitter.TwitterSearchScraper(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\pandas\core\frame.py", line 563, in __init__
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 478, in get_items
+    for obj in self._iter_api_data('https://api.twitter.com/2/search/adaptive.json', params, paginationParams):
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 245, in _iter_api_data
+    obj = self._get_api_data(endpoint, reqParams)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 225, in _get_api_data
+    self._ensure_guest_token()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\modules\twitter.py", line 195, in _ensure_guest_token
+    r = self._get(self._baseUrl if url is None else url, headers = {'User-Agent': self._userAgent})
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\base.py", line 196, in _get
+    return self._request('GET', *args, **kwargs)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\snscrape\base.py", line 158, in _request
+    r = self._session.send(req, allow_redirects = allowRedirects, timeout = timeout)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\f.braulio\Anaconda3\envs\ugpn-covid-emotions\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+^C
+(ugpn-covid-emotions) C:\Users\f.braulio\Documents\Git\ugpn-covid-emotions>C:/Users/f.braulio/Anaconda3/envs/ugpn-covid-emotions/python.exe c:/Users/f.braulio/Documents/Git/ugpn-covid-emotions/src/data/make_cities_list2.py
+Start processing east_us
+east_us :initial referential timestamp: 2021-01-21 03:48:15+00:00
+east_us :number of selected users: 275
+Got info from user: 0
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got an error from user: 176
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got an error from user: 207
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got an error from user: 231
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Start processing central_us
+central_us :initial referential timestamp: 2020-12-26 15:41:56+00:00
+central_us :number of selected users: 242
+Got info from user: 0
+Got an error from user: 1
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got an error from user: 198
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Start processing west_us
+west_us :initial referential timestamp: 2020-12-09 02:02:01+00:00
+west_us :number of selected users: 263
+Got an error from user: 0
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got an error from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got an error from user: 247
+Got info from user: 250
+Got info from user: 260
+Start processing ireland_uk
+ireland_uk :initial referential timestamp: 2020-12-31 23:35:16+00:00
+ireland_uk :number of selected users: 351
+Got info from user: 0
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got an error from user: 68
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got info from user: 280
+Got info from user: 290
+Got an error from user: 298
+Got info from user: 300
+Got info from user: 310
+Got info from user: 320
+Got info from user: 330
+Got info from user: 340
+Got info from user: 350
+Start processing east_canada
+east_canada :initial referential timestamp: 2020-05-18 23:17:55+00:00
+east_canada :number of selected users: 309
+Got info from user: 0
+Got an error from user: 1
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got an error from user: 142
+Got info from user: 150
+Got info from user: 160
+Got an error from user: 167
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got info from user: 280
+Got info from user: 290
+Got info from user: 300
+Start processing west_canada
+west_canada :initial referential timestamp: 2020-01-01 07:04:46+00:00
+west_canada :number of selected users: 336
+Got info from user: 0
+Got an error from user: 2
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got an error from user: 78
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got an error from user: 135
+Got info from user: 140
+Got an error from user: 143
+Got info from user: 150
+Got info from user: 160
+Got an error from user: 166
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got info from user: 280
+Got info from user: 290
+Got info from user: 300
+Got info from user: 310
+Got info from user: 320
+Got info from user: 330
+Start processing australia
+australia :initial referential timestamp: 2020-04-07 07:36:47+00:00
+australia :number of selected users: 350
+Got an error from user: 0
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got an error from user: 59
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got an error from user: 157
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got info from user: 280
+Got info from user: 290
+Got info from user: 300
+Got info from user: 310
+Got info from user: 320
+Got info from user: 330
+Got info from user: 340
+Start processing south_africa
+south_africa :initial referential timestamp: 2020-03-24 18:41:46+00:00
+south_africa :number of selected users: 320
+Got info from user: 0
+Got an error from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got an error from user: 94
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got an error from user: 126
+Got info from user: 130
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got an error from user: 182
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got an error from user: 280
+Got info from user: 290
+Got info from user: 300
+Got info from user: 310
+Start processing ireland
+ireland :initial referential timestamp: 2020-01-16 00:33:24+00:00
+ireland :number of selected users: 445
+Got info from user: 0
+Got an error from user: 7
+Got info from user: 10
+Got an error from user: 16
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got an error from user: 74
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got an error from user: 144
+Got an error from user: 145
+Got info from user: 150
+Got an error from user: 155
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got an error from user: 259
+Got info from user: 260
+Got info from user: 270
+Got an error from user: 278
+Got info from user: 280
+Got an error from user: 287
+Got info from user: 290
+Got info from user: 300
+Got info from user: 310
+Got info from user: 320
+Got info from user: 330
+Got info from user: 340
+Got an error from user: 344
+Got info from user: 350
+Got info from user: 360
+Got info from user: 370
+Got an error from user: 376
+Got an error from user: 379
+Got info from user: 380
+Got info from user: 390
+Got info from user: 400
+Got an error from user: 407
+Got info from user: 410
+Got info from user: 420
+Got info from user: 430
+Got info from user: 440
+Start processing new_zeland
+new_zeland :initial referential timestamp: 2020-01-02 07:21:53+00:00
+new_zeland :number of selected users: 363
+Got info from user: 0
+Got an error from user: 2
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got an error from user: 48
+Got info from user: 50
+Got an error from user: 53
+Got info from user: 60
+Got an error from user: 63
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got info from user: 140
+Got an error from user: 143
+Got info from user: 150
+Got info from user: 160
+Got an error from user: 168
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got an error from user: 201
+Got an error from user: 206
+Got info from user: 210
+Got an error from user: 218
+Got info from user: 220
+Got info from user: 230
+Got info from user: 240
+Got an error from user: 246
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Got info from user: 280
+Got info from user: 290
+Got info from user: 300
+Got info from user: 310
+Got an error from user: 315
+Got info from user: 320
+Got an error from user: 321
+Got info from user: 330
+Got info from user: 340
+Got info from user: 350
+Got info from user: 360
+Start processing sri_lanka
+sri_lanka :initial referential timestamp: 2020-01-10 13:05:42+00:00
+sri_lanka :number of selected users: 279
+Got info from user: 0
+Got an error from user: 6
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got info from user: 130
+Got an error from user: 132
+Got info from user: 140
+Got info from user: 150
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180
+Got info from user: 190
+Got info from user: 200
+Got info from user: 210
+Got info from user: 220
+Got an error from user: 224
+Got info from user: 230
+Got info from user: 240
+Got info from user: 250
+Got info from user: 260
+Got info from user: 270
+Start processing singapore
+singapore :initial referential timestamp: 2020-01-06 01:20:27+00:00
+singapore :number of selected users: 131
+Got info from user: 0
+Got an error from user: 1
+Got info from user: 10
+Got info from user: 20
+Got info from user: 30
+Got info from user: 40
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got info from user: 80
+Got info from user: 90
+Got an error from user: 98
+Got info from user: 100
+Got info from user: 110
+Got info from user: 120
+Got an error from user: 128
+Got info from user: 130
+Start processing trinidad_tobago
+trinidad_tobago :initial referential timestamp: 2020-01-22 00:24:14+00:00
+trinidad_tobago :number of selected users: 189
+Got info from user: 0
+Got an error from user: 9
+Got info from user: 10
+Got info from user: 20
+Got an error from user: 23
+Got an error from user: 27
+Got info from user: 30
+Got info from user: 40
+Got an error from user: 43
+Got an error from user: 47
+Got info from user: 50
+Got info from user: 60
+Got info from user: 70
+Got an error from user: 74
+Got info from user: 80
+Got info from user: 90
+Got an error from user: 96
+Got info from user: 100
+Got an error from user: 109
+Got info from user: 110
+Got an error from user: 116
+Got an error from user: 118
+Got info from user: 120
+Got info from user: 130
+Got an error from user: 131
+Got an error from user: 138
+Got info from user: 140
+Got info from user: 150
+Got an error from user: 155
+Got info from user: 160
+Got info from user: 170
+Got info from user: 180

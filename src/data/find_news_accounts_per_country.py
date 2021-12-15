@@ -29,9 +29,12 @@ locations = {
     'south_africa': '-28.816624, 24.991639,1000km',
     'ireland': '52.812761,-8.703998,200km',
     'new_zeland': '-41.500083,172.834408,830km',
-    'sri_lanka': '7.555494,80.713785, 265km',
-    'singapore': '1.271988,103.823620,22km',
-    'trinidad_tobago': '10.695211,-61.168652,100km'
+    'philipines'
+    'india'
+    'nigeria'
+    'south_africa'
+    'malaysia'
+    'kenya'
 }
 
 # Query constants

@@ -76,7 +76,17 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+/data/processed/consolidated/
+/data/processed/archive/
+/data/interim/archive/
+/data/raw/archive/
+/data/external/archive/
+
+# exclude archived data from notebooks
+/notebooks/archive/
+
+# exclude archived data from reports
+/reports/figures/archive/
 
 # Mac OS-specific storage files
 .DS_Store

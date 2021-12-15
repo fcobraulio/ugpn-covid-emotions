@@ -126,8 +126,8 @@ def main():
     conversations = get_conversations()
 
     # Read news tweets
-    news_tweets = pd.read_parquet('./data/raw/news_tweets.parquet')
-    page_metadata = pd.read_parquet('./data/raw/news_accounts.parquet')
+    news_tweets = pd.read_parquet('./data/raw/tmp/news_tweets_skynews.parquet')
+    page_metadata = pd.read_parquet('./data/raw/tmp/news_accounts_skynews.parquet')
 
     # Define list of conversations yet to be collected
     news_tweets = news_tweets[
@@ -153,8 +153,8 @@ def main():
             ) + " lang:en"
             try:
                 page_comments, user_metadata = get_page_covid_content(search)
-                tpqwriter = append_to_parquet_table(page_comments, tweets_schema, './data/raw/news_comments.parquet', tpqwriter)
-                upqwriter = append_to_parquet_table(user_metadata, users_schema, './data/raw/news_users.parquet', upqwriter)
+                tpqwriter = append_to_parquet_table(page_comments, tweets_schema, './data/raw/tmp/news_comments_skynews.parquet', tpqwriter)
+                upqwriter = append_to_parquet_table(user_metadata, users_schema, './data/raw/tmp/news_users_skynews.parquet', upqwriter)
                 logger.warning('Collected %d replies from %s conversations ranging from %d to %d, still %s to collect.', 
                     page_comments.shape[0], page_lookup[name], lower, upper, (len(group.conversationId.unique())-upper))
             except KeyboardInterrupt:
